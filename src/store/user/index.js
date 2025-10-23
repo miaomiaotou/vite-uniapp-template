@@ -5,6 +5,7 @@ export const useUserStore = defineStore(
   'user',
   () => {
     const userInfo = ref({})
+    const userId = computed(() => userInfo.value.id || '')
 
     const token = ref('')
 
@@ -27,6 +28,7 @@ export const useUserStore = defineStore(
     return {
       token,
       userInfo,
+      userId,
       login,
       logout,
       getUserData,
@@ -34,7 +36,7 @@ export const useUserStore = defineStore(
   },
   {
     persist: {
-      pick: ['token'],
+      paths: ['token'],
     },
   },
 )
