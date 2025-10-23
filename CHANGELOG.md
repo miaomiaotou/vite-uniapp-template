@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.1](https://github.com/viarotel-org/vite-uniapp-template/compare/v3.1.0...v3.1.1) (2025-10-23)
+
+
+### Bug Fixes
+
+* 🐛 修复用户存储导出缺失及持久化工具使用问题 ([2d75012](https://github.com/viarotel-org/vite-uniapp-template/commit/2d750127322c53ceb795f4cef15676c88265fcf3))
+
 ## [3.1.0](https://github.com/viarotel-org/vite-uniapp-template/compare/v3.0.5...v3.1.0) (2025-09-09)
 
 
