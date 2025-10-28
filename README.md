@@ -33,7 +33,7 @@ cd vite-uniapp-template
 
 > 请使用 node@20.0 及以上版本。
 
-推荐使用 `pnpm` 安装依赖。当前未在 `npm` 或 `yarn` 环境下进行充分测试，可能存在依赖不兼容或版本对齐问题。
+推荐使用 `pnpm` 安装依赖。npm中的版本会和其中的插件冲突。
 
 ```shell
 pnpm install
@@ -64,6 +64,7 @@ pnpm dev:app-android
 - 确保已安装依赖 (如果尚未安装，请在项目根目录运行 `pnpm install`)。
 - 点击项目 `/src` 目录下的任意文件。
 - 在 HBuilderX 菜单中，导航至“运行”并选择您的目标运行环境。
+- vscode可正常使用
 
 ## 功能示例
 
